@@ -32,7 +32,7 @@
 			$mail->isHTML(true);                                  
 
 			$mail->Subject = $_POST['subject'];
-			$mail->Body    = '<div style="border:2px solid red;">This is the HTML </div>';
+			$mail->Body    = '<div style="border:12px solid pink;">WELCOME TO THIS WORLD</div>';
 			$mail->AltBody = $_POST['message'];
 
 			if(!$mail->send()) {
